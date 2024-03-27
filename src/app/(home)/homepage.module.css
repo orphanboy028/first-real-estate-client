@@ -1,0 +1,86 @@
+.home_container {
+  margin-top: 50px;
+}
+
+.hero_section {
+  margin-bottom: 50px;
+}
+
+.section_wrapper {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.section_header {
+  padding: 0px 15px;
+}
+
+.section_heading {
+  font-family: var(--font-open-sens);
+  color: #091e42;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.small_caption {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #42526e;
+  font-family: var(--font-open-sens);
+}
+
+/* two_columnContainer */
+.two_columnContainer {
+  display: flex;
+}
+
+.column_Container {
+  width: 50%;
+}
+
+.form_card {
+  margin: 10px 25px;
+  border: 1px solid transparent;
+  height: 80%;
+  background-color: #d7f2e3;
+  border-radius: 5px;
+  padding: 20px;
+  background-image: url("../../../public/website-static-img/enquery-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.form_wrapper {
+  width: 60%;
+}
+
+.Widget_showCaase_container {
+  background-color: #f0f9ff;
+  border: 1px solid transparent;
+  padding: 20px 70px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .section_wrapper {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .two_columnContainer {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .column_Container {
+    width: 100%;
+  }
+}

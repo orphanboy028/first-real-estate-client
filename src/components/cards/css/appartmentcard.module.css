@@ -1,0 +1,127 @@
+.AppartMentCardcard_container {
+  width: 100%;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 0px 1px 4px 0px rgba(31, 92, 163, 0.2) !important;
+}
+
+.card_body {
+  display: flex;
+}
+
+.card_imageWapper {
+  height: 250px;
+  width: 500px;
+  border-radius: 16px;
+}
+
+.card_image {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.card_content {
+  padding: 10px;
+}
+
+.card_title {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.card_SubHeading {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 5px;
+}
+
+.sub_iconBox {
+}
+.sub_headingTextBox {
+  font-size: 14px;
+}
+
+.propery_featureBox {
+  display: flex;
+  margin-bottom: 5px;
+  column-gap: 20px;
+}
+
+.feature_Box {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.feature_filed {
+  font-size: 12px;
+}
+
+.feature_value {
+  font-weight: 700;
+}
+
+.meta_descreption {
+  margin-bottom: 5px;
+}
+
+.card_footer {
+  display: flex;
+  column-gap: 50px;
+}
+
+.priceBox {
+  border: 1px solid transparent;
+}
+
+.price_Value {
+  font-weight: 700;
+  font-size: 24px;
+}
+.price_prArea {
+  font-size: 14px;
+  display: flex;
+  align-items: end;
+}
+.card_actionBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.enqueryBtn {
+  padding: 8px 20px;
+  border: 1px solid #0076d6;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0076d6;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.exploreLink {
+  display: inline-block;
+  padding: 8px 20px;
+  border: 1px solid #0076d6;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  background-color: #0076d6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .AppartMentCardcard_container {
+    width: 100%;
+  }
+  .card_body {
+    flex-direction: column;
+  }
+}

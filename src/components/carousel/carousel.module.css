@@ -1,0 +1,29 @@
+.carouselContainer {
+  width: 100%;
+  border: 1px solid transparent;
+}
+
+.customPrevArrow,
+.customNextArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.customPrevArrow {
+  left: 2px; /* Adjust the position as needed */
+}
+
+.customNextArrow {
+  right: 2px; /* Adjust the position as needed */
+}
